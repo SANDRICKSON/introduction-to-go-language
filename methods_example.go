@@ -3,8 +3,11 @@ package main
 import "fmt"
 
 // method არის ფუნქცია, რომელიც გამოიყენება struct / custom type-ზე
+
+// ეს არის კლასის ანალოგი
+// go ში არ გვაქ class keyword და არც მემკვიდრეობა
 type Author struct {
-	name      string
+	name      string // პატარა ასოთი როცა იქმნება ატრიბუტი არის package-private
 	age       int
 	branch    string
 	particles string
